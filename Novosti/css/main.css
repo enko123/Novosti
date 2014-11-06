@@ -1,0 +1,101 @@
+/* 
+    Created on : Oct 25, 2014, 13:53:39 PM
+    Author     : Anel Memić
+*/
+
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-color: #DDFFFF;
+}
+
+h1 {
+    color: #29BDC1;
+    text-align: center;
+}
+
+input[type="text"] {
+    border-radius: 15px;
+}
+
+input[type="password"] {
+    border-radius: 15px;
+}
+
+.navbar-fixed-top {
+    text-align: center;
+    font-size: 25px;
+}
+.navbar-fixed-top a {
+    text-decoration: none;
+}
+
+.jumbotron {
+    color: #29BDC1;
+    background-color: #DDFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jumbotron a {
+    text-decoration: none;
+}
+
+.col-md-8 {
+    text-align: left;
+    background-color: whitesmoke;
+    margin-top: 25px;
+}
+
+.slika {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.stream {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 100px;
+}
+
+#footer {
+    color: #29BDC1;
+    background-color: #afd9ee;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 50px;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#signal {
+    text-align: center;
+    color: #29BDC1;
+    font-size: 25px;
+    padding: 50px;
+}
+
+#signal a {
+    text-decoration: none;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
