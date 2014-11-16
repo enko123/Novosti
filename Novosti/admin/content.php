@@ -48,7 +48,7 @@
 ?>
                 <div class="stream">
 <?php
-    date_default_timezone_set("Europe/Copenhagen");
+    date_default_timezone_set("Europe/Sarajevo");
     
     $folder = 'slike/';
     $filetype = '*.*';
